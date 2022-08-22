@@ -35,6 +35,7 @@ header #text {
 }
 
 .select-player,
+.select-player:focus,
 .calculate-button,
 .calculate-button:focus {
     background-color: #015196;
@@ -50,4 +51,15 @@ header #text {
 
 .select-player:disabled {
     background-color: #A2A9AF;
+}
+
+.col-form-label,
+.normal-label {
+    color: #AFAFAF;
+}
+
+input[type="text"],
+input[type="text"]:focus {
+    background: transparent;
+    color: #FFFFFF;
 }
