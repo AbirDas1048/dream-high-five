@@ -8,9 +8,12 @@ body {
 }
 
 header {
-    background-color: #000000;
     margin-bottom: 75px;
-
+    background-color: #000000;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
 }
 
 header #text {
@@ -18,7 +21,7 @@ header #text {
     max-width: 735px;
     margin: 0 auto;
     text-align: center;
-    padding: 130px 0;
+    padding: 200px 0;
 }
 
 .card {
