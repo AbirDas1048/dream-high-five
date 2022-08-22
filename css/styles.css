@@ -33,3 +33,21 @@ header #text {
 .total {
     color: #FF5E19;
 }
+
+.select-player,
+.calculate-button,
+.calculate-button:focus {
+    background-color: #015196;
+    color: #ffffff;
+    border: 0;
+}
+
+.select-player:hover,
+.calculate-button:hover {
+    background-color: #015196;
+    color: #c5c9ea;
+}
+
+.select-player:disabled {
+    background-color: #A2A9AF;
+}
