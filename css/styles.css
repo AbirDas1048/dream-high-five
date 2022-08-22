@@ -20,3 +20,16 @@ header #text {
     text-align: center;
     padding: 130px 0;
 }
+
+.card {
+    color: #ffffff;
+    background-color: #000000;
+}
+
+#selected-players li {
+    padding-left: 20px;
+}
+
+.total {
+    color: #FF5E19;
+}
