@@ -7,13 +7,13 @@ body {
     background-color: #151515;
 }
 
+/* Header Design */
 header {
     margin-bottom: 75px;
     background-color: #000000;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
     background-position: top;
     background-size: cover;
-    height: 100vh;
 }
 
 header #text {
@@ -24,19 +24,27 @@ header #text {
     padding: 200px 0;
 }
 
+/* Card Color */
 .card {
     color: #ffffff;
     background-color: #000000;
 }
 
+/* Li Spacing */
 #selected-players li {
+    margin: 10px 0;
     padding-left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+
 }
 
+/* Total Color */
 .total {
     color: #FF5E19;
 }
 
+/* Button Design */
 .select-player,
 .select-player:focus,
 .calculate-button,
@@ -56,11 +64,14 @@ header #text {
     background-color: #A2A9AF;
 }
 
+/* Label Color */
+
 .col-form-label,
 .normal-label {
     color: #AFAFAF;
 }
 
+/* Input field design */
 input[type="text"],
 input[type="text"]:focus {
     background: transparent;
